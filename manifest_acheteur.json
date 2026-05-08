@@ -1,0 +1,22 @@
+{
+  "name": "HGD BC — App Acheteurs",
+  "short_name": "HGD BC",
+  "description": "HGD Business Center — Achetez en ligne, payez en face à face",
+  "start_url": "./HGD_BC_Acheteurs.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F5F5",
+  "theme_color": "#F07D1A",
+  "categories": ["shopping", "lifestyle"],
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "logo_hgd_bc_acheteur.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
