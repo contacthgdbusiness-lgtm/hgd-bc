@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F07D1A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.18" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="110" ry="110" fill="url(#bgGrad)"/>
+  <!-- Shine overlay -->
+  <rect width="512" height="256" rx="110" ry="110" fill="url(#shineGrad)"/>
+  <!-- Shopping bag icon -->
+  <g transform="translate(256,256)">
+    <!-- Bag body -->
+    <path d="M-110 -60 Q-110 -80 -90 -80 L90 -80 Q110 -80 110 -60 L130 120 Q130 140 110 140 L-110 140 Q-130 140 -130 120 Z" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <path d="M-105 -55 Q-105 -75 -85 -75 L85 -75 Q105 -75 105 -55 L123 118 Q123 135 105 135 L-105 135 Q-123 135 -123 118 Z" fill="white" opacity="0.95"/>
+    <!-- Bag handle -->
+    <path d="M-60 -75 L-60 -110 Q-60 -150 0 -150 Q60 -150 60 -110 L60 -75" fill="none" stroke="white" stroke-width="18" stroke-linecap="round" opacity="0.95"/>
+    <!-- HGD letters -->
+    <text x="0" y="58" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="58" fill="#F07D1A" letter-spacing="-2">HGD</text>
+    <!-- BC tag -->
+    <rect x="-35" y="75" width="70" height="26" rx="13" fill="#F07D1A" opacity="0.9"/>
+    <text x="0" y="93" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="16" fill="white" letter-spacing="2">BC</text>
+  </g>
+</svg>
